@@ -157,7 +157,8 @@ h6 {
 }
 
 .sidebar-nav > .sidebar-brand {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
   background: rgba(52, 58, 64, 0.1);
   height: 80px;
   line-height: 50px;
@@ -317,6 +318,26 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #c1134e;
   text-decoration: none;
+}
+
+.badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.badge-link:last-child {
+  margin-bottom: 0;
+}
+
+.badge-link img {
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
 }
 
 a {
